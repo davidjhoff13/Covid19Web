@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Review</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+  body {
+		background-color: gray;
+	  }
+  #heatmap {
+  height:600px;
+  width:900px;
+  margin-top:50px;
+  margin-left:8%;
+  padding:20px;
+  
+}
+
+#text-box {
+  margin-left:8%;
+  padding:20x;
+  height:340;
+  width:820;
+  background-color:blueviolet;
+}
+
+#text-text {}
+
+
+</style>
+<body>
+
+   <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#">Covid-19 Mapping Project</a>
+          </li>
+          <li>
+            <a href="#">Heat Map</a>
+          </li>
+          <li>
+            <a href="#">County by County Map</a>
+          </li>
+          <li>
+            <a href="#">Statistical Analysis</a>
+          </li>
+                  
+        </ul>
+        <select id="nav-select">
+          <option value="state data">State Data</option>
+          <option value="county data">County Data</option>
+          <option value="plots">Plots</option>
+          <option value="comparisons">Comparisons</option>    
+  </select>
+    </nav>
+    <header class="header">
+      <h1>Covid-19 Mapping Project</h1>
+      <h2></h2>
+    </header>
+    <main>
+        <img id="heatmap" src="Covid Deaths by State 6.10.png">
+       <section class="text-box">
+        
+          <p><strong>Tracking Impact Across the United States</strong></p>
+          <p>As the novel coronavirus has spread across the globe, the United States has been hit the hardest. 
+            It has had more cases and Covid-19 deaths than any other country. But the impact hasn't been uniform. 
+          </p>
+          <ul>
+            <il>
+              The death rate has been highest on the East Coast, with the epicenter being New York and New Jersey.
+            </il>
+            <il>In the center of the country, Illinois, Louisiana, and Nebraska have the highest death rates per person.
+            </il>
+          <il>Rural states such as Maine, West Virginia, Montana, and Oregon have had the lowest death rates as of early June
+            </il>
+          </ul>
+
+          <p>The state-by-state map doesn't provide a complete picture of the virus' geographic impact.
+          </p>
+        
+          <h3>Data Notes</h3>
+          <p>All maps, charts, and statistical analysis is based on CDC data of number of deaths at the state and county levels. 
+            The analysis is of deaths per 100,000 population for all geographic areas. The data were last updated on June 3. 
+          </p>
+        
+      </section>
+    </main>
+  </div>
+  
+</body>
+
+</html>
